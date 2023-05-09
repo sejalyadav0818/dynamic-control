@@ -1,0 +1,5 @@
+npx sequelize-cli model:generate --name option_master --attributes option_name:string,selection_id:integer
+npx sequelize-cli model:generate --name option_master --attributes option_name:string,selection_id:integer
+npx sequelize-cli model:generate --name selection_master --attributes selection_name:string
+dynamic_generator
+
